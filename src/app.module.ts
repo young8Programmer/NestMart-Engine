@@ -8,6 +8,7 @@ import { ProductModule } from './modules/product/product.module';
 import { OrderModule } from './modules/order/order.module';
 import { ReviewModule } from './modules/review/review.module';
 import { PaymentModule } from './modules/payment/payment.module';
+import { HealthModule } from './modules/health/health.module';
 import { DatabaseConfig } from './config/database.config';
 
 @Module({
@@ -28,6 +29,7 @@ import { DatabaseConfig } from './config/database.config';
     OrderModule,
     ReviewModule,
     PaymentModule,
+    HealthModule,
   ],
 })
 export class AppModule {}
